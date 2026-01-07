@@ -6,7 +6,7 @@ import Organic from './pages/Organic';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Real-state-fronted-demo">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/luxury" element={<Luxury />} />
